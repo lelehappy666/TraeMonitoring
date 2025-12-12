@@ -1,0 +1,12 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.trae.monitor
+productName: Trae Monitor
+files:
+  - filter:
+      - dist/**/*
+      - dist-electron/**/*
+win:
+  target: nsis
+electronVersion: 39.2.6
